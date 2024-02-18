@@ -1,0 +1,27 @@
+.soldOut {
+  color: red;
+  font-weight: bold;
+}
+
+.singleItem {
+  color: green;
+  font-weight: bold;
+}
+
+img {
+  height: 200px;
+}
+
+/* p {
+  font-weight: bold;
+} */
+
+h2 {
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
+
+.button {
+  background-color: #8ca386;
+  color: white;
+}
