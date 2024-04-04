@@ -1,5 +1,5 @@
 <div class="container " style="background-color: beige;" style="margin-top: 6rem;">
-  <h2 class="text-center mb-4">Add Book</h2>
+  <h2 class="text-center mb-4">Add Drinks</h2>
   <div class="row">
     <div class="col-lg-6 col-sm-12 mb-4">
       <form [formGroup]="productForm" (submit)="formOperation($event)">
@@ -37,7 +37,7 @@
             </div>
           </ng-container>
         </div>
-        <label for="exampleInputPassword1" class="form-label">Product Quantity</label>
+        <label for="exampleInputPassword1" class="form-label">Product Image</label>
         <input type="text" class="form-control" formControlName="image" id="exampleInputPassword1"
           placeholder="Enter image url" />
         <!-- <p>{{ productForm.value | json }}</p> -->
@@ -51,7 +51,7 @@
       </form>
     </div>
     <div class="col-lg-6 col-sm-12 mb-4">
-      <img class="img-fluid" src="../../../../assets/imags/books.png" />
+      <img class="img-fluid" src="../../../../assets/imags/coverdrink1.png" />
     </div>
 
   </div>
